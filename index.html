@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5, user-scalable=yes">
+    <title>Arlancell · Estoque</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- CARD PRINCIPAL -->
+        <div class="stock-card">
+            <!-- HEADER BLACK & GOLD -->
+            <div class="header">
+                <div class="header-content">
+                    <h1>ARLANCELL<span class="gold-dot"></span></h1>
+                    <p class="subtitle">Controle de estoque · peças originais</p>
+                </div>
+                <div class="gold-accent"></div>
+            </div>
+
+            <!-- ÁREA DE PESQUISA -->
+            <div class="search-section">
+                <div class="search-wrapper">
+                    <label for="modelInput" class="search-label">
+                        <span class="search-icon">🔍</span>
+                        PESQUISAR MODELO
+                    </label>
+                    <div class="search-flex">
+                        <input type="text" 
+                               id="modelInput" 
+                               class="search-input" 
+                               placeholder="Ex: a20, galaxy s21, iphone 15, moto g84..."
+                               autocomplete="off">
+                        <button class="search-btn" id="searchBtn">
+                            <span>VER ESTOQUE</span>
+                            <span class="btn-icon">→</span>
+                        </button>
+                    </div>
+                    <div class="search-hint">
+                        <span class="hint-icon">💡</span>
+                        <span>Digite qualquer modelo (a20, s23, redmi note, etc.)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RESULTADO DA PESQUISA -->
+            <div class="result-section" id="resultSection">
+                <!-- CABEÇALHO DO MODELO ENCONTRADO -->
+                <div class="model-header" id="modelHeader">
+                    <h2 id="modelNameDisplay">SAMSUNG A01</h2>
+                    <div class="model-badge" id="stockBadge">
+                        <span class="badge-dot"></span>
+                        <span id="stockStatus">EM ESTOQUE</span>
+                    </div>
+                </div>
+
+                <!-- TABELA DE PEÇAS -->
+                <div class="table-container">
+                    <table id="stockTable">
+                        <thead>
+                            <tr>
+                                <th>PEÇA</th>
+                                <th>MODELO</th>
+                                <th>QUANTIDADE</th>
+                                <th>PREÇO</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody">
+                            <!-- Preenchido via JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- LEGENDA / INFO -->
+                <div class="table-footer">
+                    <div class="legend">
+                        <span class="legend-item">
+                            <span class="dot available"></span>
+                            Disponível
+                        </span>
+                        <span class="legend-item">
+                            <span class="dot out-of-stock-dot"></span>
+                            Em falta (0 unid.)
+                        </span>
+                    </div>
+                    <div class="last-update" id="lastUpdate">
+                        Atualizado em tempo real
+                    </div>
+                </div>
+            </div>
+
+            <!-- MENSAGEM DE NENHUM RESULTADO (aparece quando não encontra) -->
+            <div class="no-result" id="noResultMessage">
+                <div class="no-result-content">
+                    <span class="no-result-icon">📱</span>
+                    <h3>Nenhum modelo encontrado</h3>
+                    <p>Tente buscar por: a20, s23, iphone 13, redmi note 11, moto g84...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER SIMPLES -->
+    <footer class="footer">
+        <p>Arlancell © 2025 · Sistema de estoque inteligente</p>
+    </footer>
+
+    <script src="./js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
