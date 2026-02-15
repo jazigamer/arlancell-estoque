@@ -1,30 +1,100 @@
 const estoqueCompleto = [
   // ===== SAMSUNG =====
   {
-    modelo: "SAMSUNG A01",
-    apelidos: ["a01", "samsung a01", "galaxy a01"],
+    modelo: "SAMSUNG J5",
+    apelidos: ["j5", "samsung j5", "J5"],
     pecas: [
-      { peca: "TELA", quantidade: 0, preco: "" },
+      { peca: "TELA", quantidade: 1, preco: "150" },
       { peca: "BATERIA", quantidade: 0, preco: "" },
       { peca: "CÂMERA", quantidade: 0, preco: "" },
       { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
+    modelo: "SAMSUNG J5 Prime",
+    apelidos: ["j5 prime", "j5 Prime", "samsung j5 prime", "J5 Prime", "samsung j5 Prime"],
+    pecas: [
+      { peca: "TELA", quantidade: 1, preco: "180" },
+      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
+    modelo: "SAMSUNG A01 Core",
+    apelidos: ["a01 core", "samsung a01 core", "galaxy a01 core"],
+    pecas: [
+      { peca: "TELA", quantidade: 1, preco: "150" },
+      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 1, preco: "40" }
+    ]
+  },
+  {
+    modelo: "SAMSUNG A01",
+    apelidos: ["a01", "samsung a01", "galaxy a01"],
+    pecas: [
+      { peca: "TELA", quantidade: 1, preco: "200" },
+      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 1, preco: "40" }
     ]
   },
   {
     modelo: "SAMSUNG A02",
     apelidos: ["a02", "samsung a02", "galaxy a02"],
     pecas: [
-      { peca: "TELA", quantidade: 0, preco: "" },
+      { peca: "TELA", quantidade: 1, preco: "250" },
       { peca: "BATERIA", quantidade: 0, preco: "" },
       { peca: "CÂMERA", quantidade: 0, preco: "" },
-      { peca: "TAMPA", quantidade: 0, preco: "" }
+      { peca: "TAMPA", quantidade: 1, preco: "60" }
     ]
   },
   {
     modelo: "SAMSUNG A03",
     apelidos: ["a03", "samsung a03", "galaxy a03", "a03 core"],
     pecas: [
-      { peca: "TELA", quantidade: 0, preco: "" },
+      { peca: "TELA", quantidade: 2, preco: "250" },
+      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
+    modelo: "SAMSUNG A03 Core",
+    apelidos: ["a03 core", "samsung a03 core", "galaxy a03 core"],
+    pecas: [
+      { peca: "TELA", quantidade: 1, preco: "200" },
+      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
+    modelo: "SAMSUNG A04s",
+    apelidos: ["a04s", "samsung a04s", "galaxy a04s"],
+    pecas: [
+      { peca: "TELA", quantidade: 1, preco: "250" },
+      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
+    modelo: "SAMSUNG A05",
+    apelidos: ["a05", "samsung a05", "galaxy a05"],
+    pecas: [
+      { peca: "TELA", quantidade: 1, preco: "250" },
+      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
+    modelo: "SAMSUNG A06",
+    apelidos: ["a06", "samsung a06", "galaxy a06"],
+    pecas: [
+      { peca: "TELA", quantidade: 2, preco: "" },
       { peca: "BATERIA", quantidade: 0, preco: "" },
       { peca: "CÂMERA", quantidade: 0, preco: "" },
       { peca: "TAMPA", quantidade: 0, preco: "" }
@@ -36,6 +106,16 @@ const estoqueCompleto = [
     pecas: [
       { peca: "TELA", quantidade: 0, preco: "" },
       { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
+    modelo: "SAMSUNG A10s",
+    apelidos: ["a10s", "samsung a10s", "galaxy a10s"],
+    pecas: [
+      { peca: "TELA", quantidade: 1, preco: "250" },
+      { peca: "BATERIA", quantidade: 1, preco: "150" },
       { peca: "CÂMERA", quantidade: 0, preco: "" },
       { peca: "TAMPA", quantidade: 0, preco: "" }
     ]
@@ -64,7 +144,17 @@ const estoqueCompleto = [
     modelo: "SAMSUNG A13",
     apelidos: ["a13", "samsung a13", "galaxy a13"],
     pecas: [
-      { peca: "TELA", quantidade: 0, preco: "" },
+      { peca: "TELA", quantidade: 2, preco: "250" },
+      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
+    modelo: "SAMSUNG A13 5G",
+    apelidos: ["a13 5g", "samsung a13 5g", "galaxy a13 5g"],
+    pecas: [
+      { peca: "TELA", quantidade: 2, preco: "300" },
       { peca: "BATERIA", quantidade: 0, preco: "" },
       { peca: "CÂMERA", quantidade: 0, preco: "" },
       { peca: "TAMPA", quantidade: 0, preco: "" }
@@ -84,9 +174,9 @@ const estoqueCompleto = [
     modelo: "SAMSUNG A20",
     apelidos: ["a20", "samsung a20", "galaxy a20"],
     pecas: [
-      { peca: "TELA", quantidade: 2, preco: "" },
+      { peca: "TELA", quantidade: 0, preco: "" },
       { peca: "BATERIA", quantidade: 0, preco: "" },
-      { peca: "CÂMERA", quantidade: 1, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
       { peca: "TAMPA", quantidade: 0, preco: "" }
     ]
   },
@@ -106,6 +196,16 @@ const estoqueCompleto = [
     pecas: [
       { peca: "TELA", quantidade: 0, preco: "" },
       { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
+    modelo: "SAMSUNG A23",
+    apelidos: ["a23", "samsung a23", "galaxy a23", "SM-M336+"],
+    pecas: [
+      { peca: "TELA", quantidade: 2, preco: "" },
+      { peca: "BATERIA", quantidade: 1, preco: "150" },
       { peca: "CÂMERA", quantidade: 0, preco: "" },
       { peca: "TAMPA", quantidade: 0, preco: "" }
     ]
@@ -134,7 +234,27 @@ const estoqueCompleto = [
     modelo: "SAMSUNG A32",
     apelidos: ["a32", "samsung a32", "galaxy a32"],
     pecas: [
-      { peca: "TELA", quantidade: 0, preco: "" },
+      { peca: "TELA", quantidade: 2, preco: "250" },
+      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
+    modelo: "SAMSUNG A32 LED",
+    apelidos: ["a32 led", "samsung a32 led", "galaxy a32 led"],
+    pecas: [
+      { peca: "TELA", quantidade: 1, preco: "300" },
+      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
+    modelo: "SAMSUNG A32 5G",
+    apelidos: ["a32 5g", "samsung a32 5g", "galaxy a32 5g"],
+    pecas: [
+      { peca: "TELA", quantidade: 1, preco: "250" },
       { peca: "BATERIA", quantidade: 0, preco: "" },
       { peca: "CÂMERA", quantidade: 0, preco: "" },
       { peca: "TAMPA", quantidade: 0, preco: "" }
@@ -205,6 +325,56 @@ const estoqueCompleto = [
     apelidos: ["a54", "samsung a54", "galaxy a54"],
     pecas: [
       { peca: "TELA", quantidade: 0, preco: "" },
+      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
+    modelo: "SAMSUNG F12",
+    apelidos: ["f12", "samsung f12", "galaxy f12"],
+    pecas: [
+      { peca: "TELA", quantidade: 1, preco: "250" },
+      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
+    modelo: "SAMSUNG M02",
+    apelidos: ["m02", "samsung m02", "galaxy m02"],
+    pecas: [
+      { peca: "TELA", quantidade: 1, preco: "250" },
+      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
+    modelo: "SAMSUNG M12",
+    apelidos: ["m12", "samsung m12", "galaxy m12"],
+    pecas: [
+      { peca: "TELA", quantidade: 1, preco: "250" },
+      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
+    modelo: "SAMSUNG M14",
+    apelidos: ["m14", "samsung m14", "galaxy m14"],
+    pecas: [
+      { peca: "TELA", quantidade: 0, preco: "" },
+      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
+    modelo: "SAMSUNG M32 5G",
+    apelidos: ["m32 5g", "samsung m32 5g", "galaxy m32 5g"],
+    pecas: [
+      { peca: "TELA", quantidade: 1, preco: "250" },
       { peca: "BATERIA", quantidade: 0, preco: "" },
       { peca: "CÂMERA", quantidade: 0, preco: "" },
       { peca: "TAMPA", quantidade: 0, preco: "" }
@@ -291,20 +461,40 @@ const estoqueCompleto = [
     ]
   },
   {
-    modelo: "SAMSUNG M12",
-    apelidos: ["m12", "samsung m12", "galaxy m12"],
+    modelo: "SAMSUNG A125",
+    apelidos: ["a125", "samsung a125", "galaxy a125"],
     pecas: [
-      { peca: "TELA", quantidade: 0, preco: "" },
+      { peca: "TELA", quantidade: 1, preco: "250" },
       { peca: "BATERIA", quantidade: 0, preco: "" },
       { peca: "CÂMERA", quantidade: 0, preco: "" },
       { peca: "TAMPA", quantidade: 0, preco: "" }
     ]
   },
   {
-    modelo: "SAMSUNG M14",
-    apelidos: ["m14", "samsung m14", "galaxy m14"],
+    modelo: "SAMSUNG A127",
+    apelidos: ["a127", "samsung a127", "galaxy a127"],
     pecas: [
-      { peca: "TELA", quantidade: 0, preco: "" },
+      { peca: "TELA", quantidade: 1, preco: "250" },
+      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
+    modelo: "SAMSUNG M127F",
+    apelidos: ["m127f", "samsung m127f", "galaxy m127f"],
+    pecas: [
+      { peca: "TELA", quantidade: 1, preco: "250" },
+      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
+    modelo: "SAMSUNG M127G",
+    apelidos: ["m127g", "samsung m127g", "galaxy m127g"],
+    pecas: [
+      { peca: "TELA", quantidade: 1, preco: "250" },
       { peca: "BATERIA", quantidade: 0, preco: "" },
       { peca: "CÂMERA", quantidade: 0, preco: "" },
       { peca: "TAMPA", quantidade: 0, preco: "" }
@@ -317,7 +507,17 @@ const estoqueCompleto = [
     apelidos: ["ip7", "iphone 7", "iphone7"],
     pecas: [
       { peca: "TELA", quantidade: 0, preco: "" },
-      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "BATERIA", quantidade: 1, preco: "150" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
+    modelo: "IPHONE 7 Plus",
+    apelidos: ["ip7plus", "iphone 7 plus", "iphone7plus"],
+    pecas: [
+      { peca: "TELA", quantidade: 0, preco: "" },
+      { peca: "BATERIA", quantidade: 1, preco: "150" },
       { peca: "CÂMERA", quantidade: 0, preco: "" },
       { peca: "TAMPA", quantidade: 0, preco: "" }
     ]
@@ -333,11 +533,21 @@ const estoqueCompleto = [
     ]
   },
   {
+    modelo: "IPHONE 8 Plus",
+    apelidos: ["ip8plus", "iphone 8 plus", "iphone8plus"],
+    pecas: [
+      { peca: "TELA", quantidade: 1, preco: "200" },
+      { peca: "BATERIA", quantidade: 1, preco: "150" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 1, preco: "200" }
+    ]
+  },
+  {
     modelo: "IPHONE X",
     apelidos: ["ipx", "iphone x", "iphone10"],
     pecas: [
       { peca: "TELA", quantidade: 0, preco: "" },
-      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "BATERIA", quantidade: 1, preco: "150" },
       { peca: "CÂMERA", quantidade: 0, preco: "" },
       { peca: "TAMPA", quantidade: 0, preco: "" }
     ]
@@ -346,10 +556,10 @@ const estoqueCompleto = [
     modelo: "IPHONE XR",
     apelidos: ["ipxr", "iphone xr"],
     pecas: [
-      { peca: "TELA", quantidade: 0, preco: "" },
-      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "TELA", quantidade: 1, preco: "250" },
+      { peca: "BATERIA", quantidade: 1, preco: "200" },
       { peca: "CÂMERA", quantidade: 0, preco: "" },
-      { peca: "TAMPA", quantidade: 0, preco: "" }
+      { peca: "TAMPA", quantidade: 2, preco: "250" }
     ]
   },
   {
@@ -366,10 +576,10 @@ const estoqueCompleto = [
     modelo: "IPHONE 11",
     apelidos: ["ip11", "iphone 11", "iphone11"],
     pecas: [
-      { peca: "TELA", quantidade: 0, preco: "" },
-      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "TELA", quantidade: 1, preco: "250" },
+      { peca: "BATERIA", quantidade: 1, preco: "200" },
       { peca: "CÂMERA", quantidade: 0, preco: "" },
-      { peca: "TAMPA", quantidade: 0, preco: "" }
+      { peca: "TAMPA", quantidade: 2, preco: "300" }
     ]
   },
   {
@@ -387,9 +597,9 @@ const estoqueCompleto = [
     apelidos: ["ip12", "iphone 12", "iphone12"],
     pecas: [
       { peca: "TELA", quantidade: 0, preco: "" },
-      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "BATERIA", quantidade: 1, preco: "250" },
       { peca: "CÂMERA", quantidade: 0, preco: "" },
-      { peca: "TAMPA", quantidade: 0, preco: "" }
+      { peca: "TAMPA", quantidade: 1, preco: "250" }
     ]
   },
   {
@@ -397,7 +607,7 @@ const estoqueCompleto = [
     apelidos: ["ip12pro", "iphone 12 pro"],
     pecas: [
       { peca: "TELA", quantidade: 0, preco: "" },
-      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "BATERIA", quantidade: 1, preco: "250" },
       { peca: "CÂMERA", quantidade: 0, preco: "" },
       { peca: "TAMPA", quantidade: 0, preco: "" }
     ]
@@ -420,6 +630,16 @@ const estoqueCompleto = [
       { peca: "BATERIA", quantidade: 0, preco: "" },
       { peca: "CÂMERA", quantidade: 0, preco: "" },
       { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
+    modelo: "IPHONE 13 PRO MAX",
+    apelidos: ["ip13promax", "iphone 13 pro max"],
+    pecas: [
+      { peca: "TELA", quantidade: 0, preco: "" },
+      { peca: "BATERIA", quantidade: 1, preco: "300" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 1, preco: "350" }
     ]
   },
   {
@@ -464,7 +684,7 @@ const estoqueCompleto = [
   },
   {
     modelo: "IPHONE 15 PRO MAX",
-    apelidos: ["ip15", "iphone 15", "15 pro max", "iphone 15 pro max"],
+    apelidos: ["ip15promax", "iphone 15 pro max", "15 pro max"],
     pecas: [
       { peca: "TELA", quantidade: 1, preco: "" },
       { peca: "BATERIA", quantidade: 2, preco: "" },
@@ -495,6 +715,16 @@ const estoqueCompleto = [
     ]
   },
   {
+    modelo: "MOTOROLA G8 PLAY",
+    apelidos: ["g8 play", "moto g8 play", "motorola g8 play"],
+    pecas: [
+      { peca: "TELA", quantidade: 1, preco: "200" },
+      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
     modelo: "MOTOROLA G9",
     apelidos: ["g9", "moto g9", "motorola g9"],
     pecas: [
@@ -509,6 +739,16 @@ const estoqueCompleto = [
     apelidos: ["g10", "moto g10", "motorola g10"],
     pecas: [
       { peca: "TELA", quantidade: 0, preco: "" },
+      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
+    modelo: "MOTOROLA G13",
+    apelidos: ["g13", "moto g13", "motorola g13"],
+    pecas: [
+      { peca: "TELA", quantidade: 1, preco: "250" },
       { peca: "BATERIA", quantidade: 0, preco: "" },
       { peca: "CÂMERA", quantidade: 0, preco: "" },
       { peca: "TAMPA", quantidade: 0, preco: "" }
@@ -535,13 +775,23 @@ const estoqueCompleto = [
     ]
   },
   {
+    modelo: "MOTOROLA G23",
+    apelidos: ["g23", "moto g23", "motorola g23"],
+    pecas: [
+      { peca: "TELA", quantidade: 1, preco: "250" },
+      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
     modelo: "MOTOROLA G30",
     apelidos: ["g30", "moto g30", "motorola g30"],
     pecas: [
       { peca: "TELA", quantidade: 0, preco: "" },
       { peca: "BATERIA", quantidade: 0, preco: "" },
       { peca: "CÂMERA", quantidade: 0, preco: "" },
-      { peca: "TAMPA", quantidade: 0, preco: "" }
+      { peca: "TAMPA", quantidade: 1, preco: "80" }
     ]
   },
   {
@@ -559,6 +809,26 @@ const estoqueCompleto = [
     apelidos: ["g32", "moto g32", "motorola g32"],
     pecas: [
       { peca: "TELA", quantidade: 0, preco: "" },
+      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
+    modelo: "MOTOROLA G34",
+    apelidos: ["g34", "moto g34", "motorola g34"],
+    pecas: [
+      { peca: "TELA", quantidade: 1, preco: "250" },
+      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
+    modelo: "MOTOROLA G45",
+    apelidos: ["g45", "moto g45", "motorola g45"],
+    pecas: [
+      { peca: "TELA", quantidade: 1, preco: "250" },
       { peca: "BATERIA", quantidade: 0, preco: "" },
       { peca: "CÂMERA", quantidade: 0, preco: "" },
       { peca: "TAMPA", quantidade: 0, preco: "" }
@@ -644,8 +914,28 @@ const estoqueCompleto = [
       { peca: "TAMPA", quantidade: 0, preco: "" }
     ]
   },
+  {
+    modelo: "MOTOROLA E22",
+    apelidos: ["e22", "moto e22", "motorola e22"],
+    pecas: [
+      { peca: "TELA", quantidade: 1, preco: "250" },
+      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
 
   // ===== XIAOMI =====
+  {
+    modelo: "XIAOMI REDMI 7",
+    apelidos: ["redmi 7", "xiaomi redmi 7", "redmi7"],
+    pecas: [
+      { peca: "TELA", quantidade: 0, preco: "" },
+      { peca: "BATERIA", quantidade: 1, preco: "150" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
   {
     modelo: "XIAOMI REDMI 9A",
     apelidos: ["9a", "redmi 9a", "xiaomi 9a"],
@@ -667,11 +957,41 @@ const estoqueCompleto = [
     ]
   },
   {
+    modelo: "XIAOMI REDMI 13C",
+    apelidos: ["13c", "redmi 13c", "xiaomi 13c"],
+    pecas: [
+      { peca: "TELA", quantidade: 2, preco: "275" },
+      { peca: "BATERIA", quantidade: 1, preco: "150" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
+    modelo: "XIAOMI REDMI 14C",
+    apelidos: ["14c", "redmi 14c", "xiaomi 14c"],
+    pecas: [
+      { peca: "TELA", quantidade: 2, preco: "290" },
+      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
+    modelo: "XIAOMI REDMI NOTE 6",
+    apelidos: ["note6", "redmi note 6", "xiaomi note 6"],
+    pecas: [
+      { peca: "TELA", quantidade: 0, preco: "" },
+      { peca: "BATERIA", quantidade: 1, preco: "150" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
     modelo: "XIAOMI REDMI NOTE 8",
     apelidos: ["note8", "redmi note 8", "xiaomi note 8"],
     pecas: [
       { peca: "TELA", quantidade: 0, preco: "" },
-      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "BATERIA", quantidade: 1, preco: "150" },
       { peca: "CÂMERA", quantidade: 0, preco: "" },
       { peca: "TAMPA", quantidade: 0, preco: "" }
     ]
@@ -703,17 +1023,17 @@ const estoqueCompleto = [
       { peca: "TELA", quantidade: 0, preco: "" },
       { peca: "BATERIA", quantidade: 0, preco: "" },
       { peca: "CÂMERA", quantidade: 0, preco: "" },
-      { peca: "TAMPA", quantidade: 0, preco: "" }
+      { peca: "TAMPA", quantidade: 1, preco: "" }
     ]
   },
   {
     modelo: "XIAOMI REDMI NOTE 12",
     apelidos: ["note12", "redmi note 12", "xiaomi note 12"],
     pecas: [
-      { peca: "TELA", quantidade: 0, preco: "" },
+      { peca: "TELA", quantidade: 1, preco: "250" },
       { peca: "BATERIA", quantidade: 0, preco: "" },
       { peca: "CÂMERA", quantidade: 0, preco: "" },
-      { peca: "TAMPA", quantidade: 0, preco: "" }
+      { peca: "TAMPA", quantidade: 1, preco: "" }
     ]
   },
   {
@@ -727,11 +1047,51 @@ const estoqueCompleto = [
     ]
   },
   {
+    modelo: "XIAOMI REDMI NOTE 14",
+    apelidos: ["note14", "redmi note 14", "xiaomi note 14"],
+    pecas: [
+      { peca: "TELA", quantidade: 0, preco: "" },
+      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 1, preco: "" }
+    ]
+  },
+  {
+    modelo: "XIAOMI POCO C65",
+    apelidos: ["poco c65", "c65", "pococ65"],
+    pecas: [
+      { peca: "TELA", quantidade: 0, preco: "" },
+      { peca: "BATERIA", quantidade: 1, preco: "150" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
+    modelo: "XIAOMI POCO C75",
+    apelidos: ["poco c75", "c75", "pococ75"],
+    pecas: [
+      { peca: "TELA", quantidade: 2, preco: "275" },
+      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
     modelo: "XIAOMI POCO X3",
     apelidos: ["poco x3", "x3", "pocox3"],
     pecas: [
       { peca: "TELA", quantidade: 0, preco: "" },
-      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "BATERIA", quantidade: 1, preco: "150" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
+    modelo: "XIAOMI POCO X3 PRO",
+    apelidos: ["poco x3 pro", "x3 pro", "pocox3 pro"],
+    pecas: [
+      { peca: "TELA", quantidade: 0, preco: "" },
+      { peca: "BATERIA", quantidade: 1, preco: "150" },
       { peca: "CÂMERA", quantidade: 0, preco: "" },
       { peca: "TAMPA", quantidade: 0, preco: "" }
     ]
@@ -831,6 +1191,16 @@ const estoqueCompleto = [
     ]
   },
   {
+    modelo: "LG K11",
+    apelidos: ["k11", "lg k11"],
+    pecas: [
+      { peca: "TELA", quantidade: 1, preco: "150" },
+      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
     modelo: "LG K12",
     apelidos: ["k12", "lg k12"],
     pecas: [
@@ -841,10 +1211,30 @@ const estoqueCompleto = [
     ]
   },
   {
+    modelo: "LG K12 MAX",
+    apelidos: ["k12 max", "lg k12 max"],
+    pecas: [
+      { peca: "TELA", quantidade: 1, preco: "200" },
+      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
+    modelo: "LG K12 PRIME",
+    apelidos: ["k12 prime", "lg k12 prime"],
+    pecas: [
+      { peca: "TELA", quantidade: 1, preco: "200" },
+      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
     modelo: "LG K22",
     apelidos: ["k22", "lg k22"],
     pecas: [
-      { peca: "TELA", quantidade: 0, preco: "" },
+      { peca: "TELA", quantidade: 1, preco: "200" },
       { peca: "BATERIA", quantidade: 0, preco: "" },
       { peca: "CÂMERA", quantidade: 0, preco: "" },
       { peca: "TAMPA", quantidade: 0, preco: "" }
@@ -861,10 +1251,30 @@ const estoqueCompleto = [
     ]
   },
   {
+    modelo: "LG K50",
+    apelidos: ["k50", "lg k50"],
+    pecas: [
+      { peca: "TELA", quantidade: 1, preco: "250" },
+      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
     modelo: "LG K51",
     apelidos: ["k51", "lg k51"],
     pecas: [
       { peca: "TELA", quantidade: 0, preco: "" },
+      { peca: "BATERIA", quantidade: 0, preco: "" },
+      { peca: "CÂMERA", quantidade: 0, preco: "" },
+      { peca: "TAMPA", quantidade: 0, preco: "" }
+    ]
+  },
+  {
+    modelo: "LG K60",
+    apelidos: ["k60", "lg k60"],
+    pecas: [
+      { peca: "TELA", quantidade: 1, preco: "250" },
       { peca: "BATERIA", quantidade: 0, preco: "" },
       { peca: "CÂMERA", quantidade: 0, preco: "" },
       { peca: "TAMPA", quantidade: 0, preco: "" }

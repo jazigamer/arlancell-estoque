@@ -26,13 +26,13 @@
             <!-- ÁREA DE PESQUISA -->
             <div class="search-section">
                 <div class="search-wrapper">
-                    <label for="modelInput" class="search-label">
+                    <label for="searchInput" class="search-label">
                         <span class="search-icon">🔍</span>
                         PESQUISAR MODELO
                     </label>
                     <div class="search-flex">
                         <input type="text" 
-                               id="modelInput" 
+                               id="searchInput" 
                                class="search-input" 
                                placeholder="Ex: a20, galaxy s21, iphone 15, moto g84..."
                                autocomplete="off">
@@ -49,10 +49,10 @@
             </div>
 
             <!-- RESULTADO DA PESQUISA -->
-            <div class="result-section" id="resultSection">
+            <div class="result-section" id="resultSection" style="display: none;">
                 <!-- CABEÇALHO DO MODELO ENCONTRADO -->
-                <div class="model-header" id="modelHeader">
-                    <h2 id="modelNameDisplay">SAMSUNG A01</h2>
+                <div class="model-header">
+                    <h2 id="modelNameDisplay">Modelo</h2>
                     <div class="model-badge" id="stockBadge">
                         <span class="badge-dot"></span>
                         <span id="stockStatus">EM ESTOQUE</span>
@@ -61,13 +61,13 @@
 
                 <!-- TABELA DE PEÇAS -->
                 <div class="table-container">
-                    <table id="stockTable">
+                    <table>
                         <thead>
                             <tr>
                                 <th>PEÇA</th>
                                 <th>MODELO</th>
-                                <th>QUANTIDADE</th>
                                 <th>PREÇO</th>
+                                <th>QUANTIDADE</th>
                             </tr>
                         </thead>
                         <tbody id="tableBody">
@@ -88,13 +88,13 @@
                             Em falta (0 unid.)
                         </span>
                     </div>
-                    <div class="last-update" id="lastUpdate">
+                    <div class="last-update">
                         Atualizado em tempo real
                     </div>
                 </div>
             </div>
 
-            <!-- MENSAGEM DE NENHUM RESULTADO (aparece quando não encontra) -->
+            <!-- MENSAGEM DE NENHUM RESULTADO -->
             <div class="no-result" id="noResultMessage">
                 <div class="no-result-content">
                     <span class="no-result-icon">📱</span>
@@ -110,7 +110,8 @@
         <p>Arlancell © 2025 · Sistema de estoque inteligente</p>
     </footer>
 
-    <script src="./js/data.js"></script>
+    <!-- SCRIPTS -->
+    <script src="js/data.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

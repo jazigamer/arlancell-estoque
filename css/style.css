@@ -604,3 +604,21 @@ tr:hover td {
   opacity: 0.7;
   pointer-events: none;
 }
+/* Adicione isso ao seu CSS */
+.price-column {
+  font-weight: 600;
+  color: #2e7d32;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.price-column::before {
+  content: 'R$ ';
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+
+/* Se preferir sem o R$ antes (já que a formatação já inclui) */
+.price-column.no-symbol::before {
+  content: '';
+}
